@@ -1,5 +1,5 @@
 # YOUR NAME OR TITLE OF YOUR SITE
-name: LIZA Yevtushenko
+name: Liza
 
 # YOUR BRAND/PERSONAL TAGLINE
 tagline: Licenciada en Idiomas especializada en enseñanza online.
@@ -58,7 +58,6 @@ links:
     Icon-Class: fab fa-facebook-messenger
 
     
-
   - Category: Programas y cursos
 
 
@@ -109,6 +108,11 @@ links:
   - Name: 100 FRASES PARA MEJORAR TU INGLÉS
     URL: https://idiomasconliza.com/ebook_100_frases/
     Color: '#00ab6c'
+    Image: 100_FRASES.png
+    
+  - Name: 30 FRANSES EN EL AEROPUERTO
+    URL: https://idiomasconliza.com/ebook_30_aeropuerto/
+    Color: '#00af6c'
     Image: 100_FRASES.png
 
 
