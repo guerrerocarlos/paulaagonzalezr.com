@@ -72,8 +72,8 @@ links:
     # EMAIL
   - Name: INTENSIVO VERB TENSES
     URL: 'https://idiomasconliza.com/curso-intensivo-de-tiempos-verbales-en-ingles-con-liza/'
-    Color: '#05CC46'
-    Text_Color: '#ffffff'
+    Color: '#ffffff'
+    Text_Color: '#000000'
     Image: INSENSIVO_VERB_TENSES.png
 
   - Category: E-Books y recursos
@@ -97,7 +97,7 @@ links:
   - Name: 50 FRASES MÁS USADAS
     URL: 'https://idiomasconliza.com/50-frases-en-ingles/'
     Image: 50_FRASES_MAS_USADAS.png
-    Color: '#9147fe'
+    Color: '#05CC46'
     Text_Color: '#ffffff'
 
   - Name: HABIT TRACKER
@@ -108,7 +108,7 @@ links:
 
   - Name: 100 FRASES PARA MEJORAR TU INGLÉS
     URL: https://idiomasconliza.com/ebook_100_frases/
-    Color: '#FF4500'
+    Color: '#00ab6c'
     Image: 100_FRASES.png
 
 
