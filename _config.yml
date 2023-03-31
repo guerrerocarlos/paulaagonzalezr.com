@@ -60,7 +60,13 @@ links:
     
   - Category: Programas y cursos
 
-
+  # EMAIL
+  - Name: NEWSLETTER
+    URL: 'https://idiomasconliza.com/newsletter/'
+    Color: '#FF4500'
+    Text_Color: '#ffffff'
+    Image: CLUB_DE_INGLES.png
+    
     # EMAIL
   - Name: CLUB DE INGLES
     URL: 'https://idiomasconliza.com/club-ingles-promo/'
