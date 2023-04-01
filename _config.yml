@@ -95,8 +95,15 @@ links:
     Image: WORKBOOK_ALL_TENSES_IN_ONE.png
     Color: '#FFDD00'
     Text_Color: '#000000'
-
-
+    
+ - Category: Newsletter
+ 
+  - Name: Newsletter
+    URL: https://idiomasconliza.com/newsletter/
+    Icon-Class: fab fa-email
+    Color: '#FFDD00'
+    Text_Color: '#000000'
+    
   - Category: E-Books Gratis
 
   - Name: 50 FRASES MÁS USADAS
