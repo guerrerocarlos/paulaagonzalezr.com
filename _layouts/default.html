@@ -43,11 +43,11 @@ layout: compress
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S7TRB402C"></script>
 <script>
-    let vcards = document.getElementsByClassName("vcard");
-    console.log("INIT VCARDS");
     for(var el of document.getElementsByClassName("vcard")) {
-        console.log("VCARD", el);
-        el.addEventListener("click", function (event) {
+        console.log(el.parentElement.parentElement);
+        let button = el.parentElement.parentElement;
+        console.log("VCARD4", el);
+        button.addEventListener("click", function (event) {
             event.preventDefault();
             var contact = {
                 name: "{{site.vcard.name}}",
