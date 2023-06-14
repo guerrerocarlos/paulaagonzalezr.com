@@ -12,7 +12,7 @@ Image_URL: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
 
 vcard:
   name: Paula A. G. Rozalen
-  phone: +34678987323
+  phone: "+34678987323"
   email: p.rozalen@roandca.com
   web: https://www.roandca.com
   photo: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
