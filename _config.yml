@@ -2,13 +2,24 @@
 name: PAULA ROZALEN
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Diseñadora Industrial, Directora General de RO&CA Design.
+tagline: Diseñadora Industrial, Directora General de RO&CA Design
 
 # YOUR/BRAND IMAGE URL
 Image_URL: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
 # Cover_Image: https://source.unsplash.com/random
+
+vcard:
+  name: Paula A. G. Rozalen
+  phone: +34678987323
+  email: p.rozalen@roandca.com
+  web: https://www.roandca.com
+  address: 
+    - Calle La Grania 86
+      Nave 12
+      28108 Alcobendas Madrid
+      Spain
 
 # SOCIAL MEDIA
 links:
@@ -30,7 +41,7 @@ links:
   #   Icon-Class: fab fa-tiktok
   - Name: Agregar Contacto
     URL: https://idiomasconliza.com/newsletter/
-    Icon-Class: fab fa-email
+    Icon-Class: fab fa-email vcard
     Color: '#851a33'
 
   - Category: Write me directly
