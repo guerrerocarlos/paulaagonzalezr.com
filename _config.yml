@@ -1,5 +1,5 @@
 # YOUR NAME OR TITLE OF YOUR SITE
-name: Paula Gonzalez
+name: PAULA ROZALEN
 
 # YOUR BRAND/PERSONAL TAGLINE
 tagline: Diseñadora Industrial, Directora General de RO&CA Design.
@@ -8,7 +8,7 @@ tagline: Diseñadora Industrial, Directora General de RO&CA Design.
 Image_URL: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
-Cover_Image: https://source.unsplash.com/random
+# Cover_Image: https://source.unsplash.com/random
 
 # SOCIAL MEDIA
 links:
@@ -31,7 +31,7 @@ links:
   - Name: Agregar Contacto
     URL: https://idiomasconliza.com/newsletter/
     Icon-Class: fab fa-email
-    Color: '#FFDD00'
+    Color: '#851a33'
     Text_Color: '#000000'
 
   - Category: Write me directly
@@ -40,22 +40,27 @@ links:
   - Name: WhatsApp
     URL: https://wa.me
     Username: '+34678987323'
-    Color: '#25d366'
+    Color: '#77a55d'
     Icon-Class: fab fa-whatsapp
+    Text_Color: '#000000'
 
         # TELEGRAM
   - Name: Telegram
     URL: http://telegram.me
     Username: PAGR7
-    Color: '#0088cc'
+    Color: '#4d76a2'
     Icon-Class: fab fa-telegram-plane
+    Text_Color: '#000000'
+
+
 
     # INSTAGRAM
   - Name: Instagram
     URL: https://www.instagram.com
     Username: roandcadesign
-    Color: '#DD2A7B'
+    Color: '#b23e7b'
     Icon-Class: fab fa-instagram
+    Text_Color: '#000000'
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
