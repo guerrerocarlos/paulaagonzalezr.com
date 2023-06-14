@@ -45,8 +45,10 @@ layout: compress
 <script>
     let vcards = document.getElementsByClassName("vcard");
     console.log("INIT VCARDS");
-    for(var el of vcards) {
-        el.addEventListener("click", function () {
+    for(var el of document.getElementsByClassName("vcard")) {
+        console.log("VCARD", el);
+        el.addEventListener("click", function (event) {
+            event.preventDefault();
             var contact = {
                 name: "{{site.vcard.name}}",
                 phone: "{{site.vcard.phone}}",
