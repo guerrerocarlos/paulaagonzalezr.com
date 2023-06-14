@@ -43,13 +43,8 @@ layout: compress
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1S7TRB402C"></script>
 <script>
-//   window.dataLayer = window.dataLayer || [];
-//   function gtag(){dataLayer.push(arguments);}
-//   gtag('js', new Date());
-
-//   gtag('config', 'G-1S7TRB402C');
-
     let vcards = document.getElementsByClassName("vcard");
+    console.log("INIT VCARDS");
     for(var el of vcards) {
         el.addEventListener("click", function () {
             var contact = {
@@ -57,7 +52,7 @@ layout: compress
                 phone: "{{site.vcard.phone}}",
                 email: "{{site.vcard.email}}"
             };
-            var vcard = "BEGIN:VCARD\nVERSION:4.0\nFN:" + contact.name + "\nTEL;TYPE=work,voice:" + contact.phone + "\nEMAIL:" + contact.email + "\nPHOTO;JPG:"+contact.photo+"\nADR;WORK;PREF;"+contact.address+"\n:END:VCARD";
+            var vcard = "BEGIN:VCARD\nVERSION:4.0\nFN:" + contact.name + "\nTEL;TYPE=work,voice:" + contact.phone + "\nEMAIL:" + contact.email + "\PHOTO;MEDIATYPE=image/jpg:"+contact.photo+"\ADR;TYPE=WORK;PREF=1;LABEL="+contact.address.replace(/\;/g, ",")+":;"+contact.address+"\n:END:VCARD";
             console.log("VCARD!", vcard);
             
             var blob = new Blob([vcard], { type: "text/vcard" });
