@@ -15,11 +15,8 @@ vcard:
   phone: +34678987323
   email: p.rozalen@roandca.com
   web: https://www.roandca.com
-  address: 
-    - Calle La Grania 86
-      Nave 12
-      28108 Alcobendas Madrid
-      Spain
+  photo: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
+  address: Calle La Grania 86;Nave 12;Madrid;ES;28108;Spain
 
 # SOCIAL MEDIA
 links:
@@ -73,8 +70,8 @@ footer: 'No'
 # STOP EDITING HERE ---------- YOU'VE REACHED THE END OF THE CONFIGURATION
 
 # Compress
-compress_html:
-  clippings: all
+# compress_html:
+#   clippings: all
 
 # Exclude
 exclude:
