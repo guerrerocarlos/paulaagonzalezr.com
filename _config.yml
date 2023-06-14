@@ -32,7 +32,6 @@ links:
     URL: https://idiomasconliza.com/newsletter/
     Icon-Class: fab fa-email
     Color: '#851a33'
-    Text_Color: '#000000'
 
   - Category: Write me directly
  
@@ -42,7 +41,6 @@ links:
     Username: '+34678987323'
     Color: '#77a55d'
     Icon-Class: fab fa-whatsapp
-    Text_Color: '#000000'
 
         # TELEGRAM
   - Name: Telegram
@@ -50,9 +48,6 @@ links:
     Username: PAGR7
     Color: '#4d76a2'
     Icon-Class: fab fa-telegram-plane
-    Text_Color: '#000000'
-
-
 
     # INSTAGRAM
   - Name: Instagram
@@ -60,7 +55,6 @@ links:
     Username: roandcadesign
     Color: '#b23e7b'
     Icon-Class: fab fa-instagram
-    Text_Color: '#000000'
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
