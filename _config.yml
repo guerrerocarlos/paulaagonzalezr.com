@@ -44,8 +44,7 @@ links:
   - Name: Ro&Ca.com
     URL: https://roandca.com/
     Icon-Class: fab fa-email
-    Color: '#FFDD00'
-    Text_Color: '#000000'
+    Color: '#851a33'
 
       # WHATSAPP
   - Name: WhatsApp
