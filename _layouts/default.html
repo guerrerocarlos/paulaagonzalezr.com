@@ -43,7 +43,8 @@
         console.log(el.parentElement.parentElement);
         let button = el.parentElement.parentElement;
         console.log("VCARD4", el);
-        button.addEventListener("click", function () {
+        button.addEventListener("click", function (event) {
+            event.preventDefault()
 var vcard = `BEGIN:VCARD
 VERSION:2.1
 N:Rozalen;Paula A.;G.;;
