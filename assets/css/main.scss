@@ -49,27 +49,23 @@ html {
             align-items: center;
         }
     }
+    body{
+        background-color: white;
+        text-transform: capitalize;
+    }
+    .align-right {
+        text-align: right;
+    }
+    .red-font {
+        color: #c31b38;
+    }
+    .button {
+        cursor: pointer;
+    }
+    .button-container { 
+        border: 2px solid black;
+        width: 120%;
+        margin-bottom: 10px;
+    }
 }
 
-body {
-    background-color: white;
-    text-transform: capitalize;
-}
-
-.align-right {
-    text-align: right;
-}
-
-.red-font {
-    color: #c31b38;
-}
-
-.button {
-    cursor: pointer;
-}
-
-.button-container { 
-    border: 2px solid black;
-    width: 120%;
-    margin-bottom: 10px;
-}
