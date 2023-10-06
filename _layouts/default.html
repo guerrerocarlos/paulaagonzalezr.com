@@ -19,9 +19,14 @@
                     onError="this.onerror=null;this.src='https://github.com/{{site.github_username}}.png';"
                     alt="{{site.name}}">
                 <br>
-                <h1 class="text-5xl text-center font-semibold mt-3 mx-auto">{{site.name}}</h1>
-                <hr class="my-2 opacity-25">
-                <p class="text-base break-words inline-flex font-normal mt-1.5 mx-auto text-center opacity-50 2xl:w-5/12 xl:w-5/12 md:w-6/12 sm:w-full justify-center">{{site.tagline}}</p>
+                <h1 class="text-5xl text-center font-semibold mt-3 mx-auto align-right">{{site.name}}</h1>
+                <h1 class="text-5xl text-center font-semibold mt-3 mx-auto align-right">{{site.surname}}</h1>
+                <hr class="my-2 opacity-25" style="height: 4px; background-color: black;">
+                <div class="font-semibold  mt-3 mx-auto align-right red-font">{{site.tagline1}}</div>
+                <div class="font-semibold  mt-3 align-right red-font">{{site.tagline2}}</div>
+                <div class="font-semibold  mt-3 align-right red-font">{{site.tagline3}}</div>
+                <br>
+
                 <div class="grid 2xl:grid-cols-5 xl:grid-cols-1 lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
                     {% unless site.links == "" %}
                     {% include links.html %}

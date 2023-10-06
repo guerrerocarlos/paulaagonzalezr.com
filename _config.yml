@@ -1,21 +1,24 @@
 # YOUR NAME OR TITLE OF YOUR SITE
-name: PAULA ROZALEN
+name: PAULA A. 
+surname: GONZÁLEZ R.
 
 # YOUR BRAND/PERSONAL TAGLINE
-tagline: Diseñadora Industrial, Directora General de RO&CA Design
+tagline1: DISEÑADORA INDUSTRIAL/PRODUCTO
+tagline2: CEO EN RO&CA DESIGN
+tagline3: PROFESORA
 
 # YOUR/BRAND IMAGE URL
-Image_URL: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
+Image_URL: https://guerrerocarlos.github.io/paulagonzalezr.com/assets/images/foto_paula.png
 
 # CHANGE THE BACKGROUND IMAGE OF THE WEBSITE BY JUST ADDING THE IMAGE URL
 # Cover_Image: https://source.unsplash.com/random
 
 vcard:
-  name: Paula A. G. Rozalen
+  name: PAULA A. GONZÁLEZ R.
   phone: "+34678987323"
   email: p.rozalen@roandca.com
   web: https://www.roandca.com
-  photo: https://omattic.github.io/paula-vcard/assets/images/paula.jpg
+  photo: https://guerrerocarlos.github.io/paulagonzalezr.com/assets/images/foto_paula.png
   address: Calle La Grania 86;Nave 12;Madrid;ES;28108;Spain
 
 # SOCIAL MEDIA
@@ -36,36 +39,36 @@ links:
   #   Username: '@inglesconliza'
   #   Color: '#FE2C55'
   #   Icon-Class: fab fa-tiktok
-  - Name: Agregar Contacto
+  - Name: AGREGAR CONTACTO
     URL: https://roandca.com/
     Icon-Class: fab fa-email vcard
-    Color: '#851a33'
+    Color: '#c31b38'
  
-  - Name: Ro&Ca.com
+  - Name: RO&CA.COM
     URL: https://roandca.com/
     Icon-Class: fab fa-email
     Color: '#851a33'
 
-      # WHATSAPP
-  - Name: WhatsApp
-    URL: https://wa.me
-    Username: '+34678987323'
-    Color: '#77a55d'
-    Icon-Class: fab fa-whatsapp
+  - Name: LINKEDIN
+    URL: https://www.linkedin.com/in/idpaulagonzalezr/
+    Color: '#6796cb'
+    Icon-Class: fab fa-linkedin
 
         # TELEGRAM
-  - Name: Telegram
+  - Name: TELEGRAM
     URL: http://telegram.me
     Username: PAGR7
     Color: '#4d76a2'
     Icon-Class: fab fa-telegram-plane
 
-    # INSTAGRAM
-  - Name: Instagram
-    URL: https://www.instagram.com
-    Username: roandcadesign
-    Color: '#b23e7b'
-    Icon-Class: fab fa-instagram
+
+
+      # WHATSAPP
+  - Name: WHATSAPP
+    URL: https://wa.me
+    Username: '+34678987323'
+    Color: '#77a55d'
+    Icon-Class: fab fa-whatsapp
 
 # YOU CAN REMOVE FOOTER COMPLETELY BY SIMPLY REMOVING EITHER THE YES OR REMOVING THE FOOTER STATEMENT BELOW COMPLETELY
 footer: 'No'
